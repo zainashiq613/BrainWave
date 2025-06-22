@@ -9,12 +9,12 @@ import ClipPath from '../assets/svg/ClipPath';
 function Benefits() {
   return (
     <Section id={'features'}>
-      <div className="container relative z-2">
+      <div className="container w-full relative z-2">
         <Heading
-          className={'md:max-w-md lg:max-w-2xl'}
+          className={'md:max-w-md ml-5 md:ml-0 lg:max-w-2xl'}
           title={'Chat Smarter, Not Harder With Brainwave'}
         />
-        <div className="flex flex-wrap justify-center gap-10 mb-10">
+        <div className="p-5 flex flex-wrap justify-center w-full gap-10 mb-10">
           {benefits.map((item) => (
             <div
               style={{
